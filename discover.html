@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover favourite looks and style inspiration from YOUNG Fashion.">
+  <meta name="theme-color" content="#f2d64b">
+  <title>Discover | YOUNG Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">◆</span> FASHION</a>
+    <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Open navigation menu">
+    <label class="menu-button" for="menu-toggle"><span></span><span></span><span></span><span class="visually-hidden">Menu</span></label>
+    <nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="shop.html">Catalogue</a><a href="shop.html#new-arrivals">Fashion</a><a class="active" href="discover.html" aria-current="page">Favourite</a><a href="#inspiration">Lifestyle</a><a class="nav-signup" href="#newsletter">Sign up</a></nav>
+  </div></header>
+  <main id="main">
+    <!-- Favourite looks section follows the supplied shopping website mockup. -->
+    <section class="section container favourites-section" aria-labelledby="favourites-title">
+      <div class="section-heading"><div><p class="eyebrow">Curated for you</p><h1 id="favourites-title" class="favourites-title">Young’s Favourite<span class="heading-dot">.</span></h1></div></div>
+      <div class="favourite-look-grid">
+        <article class="look-card">
+          <a href="shop.html" class="look-photo"><img src="images/favourite-trending-640.webp" srcset="images/favourite-trending-320.webp 320w, images/favourite-trending-640.webp 640w" sizes="(max-width: 650px) 95vw, 45vw" alt="Two friends wearing sunglasses and casual summer outfits" width="640" height="443"></a>
+          <div class="product-info"><div><h2>Trending on Instagram</h2><p>Explore now</p></div><a href="shop.html" aria-label="Explore trending looks">→</a></div>
+        </article>
+        <article class="look-card">
+          <a href="shop.html" class="look-photo"><img src="images/favourite-under40-640.webp" srcset="images/favourite-under40-320.webp 320w, images/favourite-under40-640.webp 640w" sizes="(max-width: 650px) 95vw, 45vw" alt="Model in sunglasses, white top and denim shorts against a pink backdrop" width="640" height="441"></a>
+          <div class="product-info"><div><h2>All Under $40</h2><p>Explore now</p></div><a href="shop.html" aria-label="Explore affordable looks">→</a></div>
+        </article>
+      </div>
+    </section>
+    <!-- App artwork is a visual mockup; no app download is offered by this student demo. -->
+    <section class="app-promo container" id="inspiration" aria-labelledby="app-title">
+      <div class="app-copy"><p class="eyebrow">Fashion on the go</p><h2 id="app-title">DOWNLOAD APP &amp;<br>GET THE VOUCHER!</h2><p>Get 30% off your first transaction using our mobile app concept.</p><div class="store-badges" aria-label="Mobile app concept"><span class="store-badge"><span aria-hidden="true">●</span> App Store</span><span class="store-badge"><span aria-hidden="true">▶</span> Google Play</span></div><p class="app-disclaimer">App shown for design demonstration only.</p></div>
+      <div class="app-art"><span class="app-ring" aria-hidden="true"></span><img src="images/app-preview-640.webp" srcset="images/app-preview-320.webp 320w, images/app-preview-640.webp 640w" sizes="(max-width: 650px) 90vw, 40vw" alt="Mockup of a mobile fashion shopping app showing clothing products" width="640" height="764"><span class="app-dot dot-one" aria-hidden="true"></span><span class="app-dot dot-two" aria-hidden="true"></span></div>
+    </section>
+    <!-- Accessible demo form: no backend or email collection is connected. -->
+    <section class="community-banner" id="newsletter" aria-labelledby="newsletter-title"><div class="container community-inner"><h2 id="newsletter-title">JOIN SHOPPING COMMUNITY TO<br>GET MONTHLY PROMO</h2><p>Type your email down below and be young wild generation.</p><form class="community-form" action="#newsletter" method="get"><label class="visually-hidden" for="email">Email address</label><input id="email" type="email" name="email" placeholder="Add your email here" required><button type="submit">SEND</button></form><small>Demo only — this form does not subscribe or send your email.</small></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-columns">
+    <div class="footer-about"><a class="brand" href="index.html">◆ FASHION</a><p>Complete your style with awesome clothes from us.</p><div class="footer-social" aria-label="Website sections"><a href="index.html" aria-label="Home">H</a><a href="shop.html" aria-label="Shop">S</a><a href="discover.html" aria-label="Discover">D</a></div></div>
+    <div><h2>Company</h2><a href="index.html">About</a><a href="discover.html#newsletter">Contact us</a><a href="shop.html">Support</a></div>
+    <div><h2>Quick Link</h2><a href="shop.html">Catalogue</a><a href="discover.html#inspiration">App concept</a><a href="discover.html">Favourites</a></div>
+    <div><h2>Explore</h2><a href="shop.html#hoodies">Hoodies</a><a href="shop.html#coats">Outerwear</a><a href="shop.html#tees">T-shirts</a></div>
+  </div></footer>
+</body>
+</html>

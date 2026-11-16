@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore the YOUNG Fashion clothing catalogue.">
+  <meta name="theme-color" content="#f2d64b">
+
+  <title> YOUNG Fashion | Home </title>
+  
+  <!-- I added a skip link so keyboard users can go directly to the main content without going through the navigation every time. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- I created this header to display the website logo
+and navigation links, to make the website easier to navigate and more accessible. -->
+
+  <header class="site-header"><div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">◆</span> FASHION</a>
+    <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Open navigation menu">
+    <label class="menu-button" for="menu-toggle"><span></span><span></span><span></span><span class="visually-hidden">Menu</span></label>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="shop.html" aria-current="page">Catalogue</a>
+      <a href="shop.html#new-arrivals">Fashion</a>
+      <a href="discover.html">Favourite</a>
+      <a href="discover.html#inspiration">Lifestyle</a>
+      <a class="nav-signup" href="discover.html#newsletter">Sign up</a>
+    </nav>
+  </div>
+
+</header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+     
+      <div class="hero-copy">
+        <p class="eyebrow">Wear your point of view</p>
+        <h1 id="hero-title">LETS EXPLORE <span>UNIQUE</span> CLOTHES.</h1>
+        <p>Live for influential and innovative fashion. Find the pieces that feel like you.</p>
+       
+        <a class="button button-dark" href="shop.html">Shop now <span aria-hidden="true">↗</span></a>
+      </div>
+      
+      <div class="hero-image">
+        <img
+          src="images/hero-model-640.webp"
+          srcset="images/hero-model-320.webp 320w, images/hero-model-640.webp 640w"
+          sizes="(max-width: 700px) 100vw, 50vw"
+          alt="Fashion model wearing a textured pink jacket"
+          width="640" height="573">
+        <span class="sparkle sparkle-one" aria-hidden="true">✳</span>
+        <span class="sparkle sparkle-two" aria-hidden="true">✳</span>
+      </div>
+
+      <div class="hero-swoosh" aria-label="ture"></div>
+      </section>
+
+      <section class="section container" id="new-arrivals" aria-labelledby="arrivals-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Fresh picks for you</p><h2 id="arrivals-title">NEW ARRIVALS<span class="heading-dot">.</span></h2></div>
+        <a class="text-link" href="shop.html">View all products <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <a href="shop.html#hoodies" class="product-photo">
+            <img src="images/product-hoodie-640.webp" srcset="images/product-hoodie-320.webp 320w, images/product-hoodie-640.webp 640w" sizes="(max-width: 600px) 80vw, (max-width: 900px) 40vw, 25vw" alt="Model wearing an orange hoodie" width="640" height="930">
+          </a>
+          <div class="product-info"><div><h3>Hoodies &amp; Sweatshirts</h3><p>Explore now</p></div><a href="shop.html#hoodies" aria-label="Explore hoodies and sweatshirts">→</a></div>
+        </article>
+        <article class="product-card">
+          <a href="shop.html#coats" class="product-photo">
+            <img src="images/product-coat-640.webp" srcset="images/product-coat-320.webp 320w, images/product-coat-640.webp 640w" sizes="(max-width: 600px) 80vw, (max-width: 900px) 40vw, 25vw" alt="Model wearing a light blue coat" width="640" height="930">
+          </a>
+          <div class="product-info"><div><h3>Coats &amp; Parkas</h3><p>Explore now</p></div><a href="shop.html#coats" aria-label="Explore coats and parkas">→</a></div>
+        </article>
+        <article class="product-card">
+          <a href="shop.html#tees" class="product-photo">
+            <img src="images/product-tee-640.webp" srcset="images/product-tee-320.webp 320w, images/product-tee-640.webp 640w" sizes="(max-width: 600px) 80vw, (max-width: 900px) 40vw, 25vw" alt="Model wearing a white T-shirt" width="640" height="930">
+          </a>
+          <div class="product-info"><div><h3>Tees &amp; T-shirts</h3><p>Explore now</p></div><a href="shop.html#tees" aria-label="Explore T-shirts">→</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="sale-banner" aria-labelledby="sale-title">
+      <div class="sale-inner container">
+        <div class="sale-photo">
+          <img src="images/sale-model-640.webp" srcset="images/sale-model-320.webp 320w, images/sale-model-640.webp 640w" sizes="(max-width: 700px) 100vw, 50vw" alt="Fashion model in a casual summer outfit" width="640" height="809">
+        </div>
+        <div class="sale-copy">
+          <p class="eyebrow">A little treat for your wardrobe</p>
+          <h2 id="sale-title"><span>PAYDAY</span> SALE NOW</h2>
+          <p>Spend $100 and get 30% off your next purchase. A fresh look is closer than you think.</p>
+          <p class="sale-date">1 June 10 June 2026<br><small>*Terms and conditions apply.</small></p>
+          <a class="button button-dark" href="shop.html">Shop now <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+      <section class="section container favourites-section" aria-labelledby="favourites-title">
+      <div class="section-heading"><div>
+        <p class="eyebrow">Curated for you</p>
+        <h2 id="favourites-title" class="favourites-title">Young’s Favourite<span class="heading-dot">.</span></h2></div></div>
+      <div class="favourite-look-grid">
+        <article class="look-card">
+          <a href="shop.html" class="look-photo"><img src="images/favourite-trending-640.webp" srcset="images/favourite-trending-320.webp 320w, images/favourite-trending-640.webp 640w" sizes="(max-width: 650px) 95vw, 45vw" alt="Two friends wearing sunglasses and casual summer outfits" width="640" height="443"></a>
+          <div class="product-info"><div><h3>Trending on Instagram</h3><p>Explore now</p></div><a href="shop.html" aria-label="Explore trending looks">→</a></div>
+        </article>
+        <article class="look-card">
+          <a href="shop.html" class="look-photo"><img src="images/favourite-under40-640.webp" srcset="images/favourite-under40-320.webp 320w, images/favourite-under40-640.webp 640w" sizes="(max-width: 650px) 95vw, 45vw" alt="Model in sunglasses, white top and denim shorts against a pink backdrop" width="640" height="441"></a>
+          <div class="product-info"><div><h3>All Under $40</h3><p>Explore now</p></div><a href="shop.html" aria-label="Explore affordable looks">→</a></div>
+        </article>
+      </div>
+    </section>
+    <!-- App artwork is a visual mockup; no app download is offered by this student demo. -->
+    <section class="app-promo container" id="app-promotion" aria-labelledby="app-title">
+      <div class="app-copy">
+        <p class="eyebrow">Fashion on the go</p>
+        <h2 id="app-title">DOWNLOAD APP &amp;<br>GET THE VOUCHER!</h2>
+        <p>Get 30% off your first transaction using our mobile app concept.</p><div class="store-badges" aria-label="Mobile app concept"><span class="store-badge"><span aria-hidden="true">●</span> App Store</span><span class="store-badge"><span aria-hidden="true">▶</span> Google Play</span></div><p class="app-disclaimer">App shown for design demonstration only.</p></div>
+      <div class="app-art"><span class="app-ring" aria-hidden="true"></span><img src="images/app-preview-640.webp" srcset="images/app-preview-320.webp 320w, images/app-preview-640.webp 640w" sizes="(max-width: 650px) 90vw, 40vw" alt="Mockup of a mobile fashion shopping app showing clothing products" width="640" height="764"><span class="app-dot dot-one" aria-hidden="true"></span><span class="app-dot dot-two" aria-hidden="true"></span></div>
+    </section>
+    <!-- Accessible demo form: no backend or email collection is connected. -->
+    <section class="community-banner" id="newsletter" aria-labelledby="newsletter-title"><div class="container community-inner"><h2 id="newsletter-title">JOIN SHOPPING COMMUNITY TO<br>GET MONTHLY PROMO</h2><p>Type your email down below and be young wild generation.</p><form class="community-form" action="#newsletter" method="get"><label class="visually-hidden" for="email">Email address</label><input id="email" type="email" name="email" placeholder="Add your email here" required><button type="submit">SEND</button></form><small>Demo only — this form does not subscribe or send your email.</small></div></section>
+  </main>
+
+  <footer class="site-footer"> 
+    <div class="container footer-colums">
+      <div class="footer-about">
+<a class="brand" href="#index.html">◆ FASHION</a>
+<p>Complete your style with awesome clothes from us.</p>
+
+<div class="footer-social" aria-label="Website sections">
+        <a href="index.html" aria-label="Home">H</a><a href="shop.html" aria-label="Shop">S</a>
+        <a href="discover.html" aria-label="Discover">D</a>
+      </div>
+    </div>
+    <div>
+      <h2>Company</h2>
+      <a href="index.html">About</a>
+      <a href="#newsletter">Contact us</a>
+      <a href="shop.html">Support</a>
+    </div>
+
+    <div>
+      <h2>Quick Link</h2>
+      <a href="shop.html">Catalogue</a>
+      <a href="#app-promotion">App concept</a>
+      <a href="discover.html">Favourites</a>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <a href="shop.html#hoodies">Hoodies</a>
+      <a href="shop.html#coats">Outerwear</a>
+      <a href="shop.html#tees">T-shirts</a>
+    </div>
+  </div>
+
+  <!-- I created a footer with links to different sections of the website. -->
+
+</footer>
+</body>
+</html>
